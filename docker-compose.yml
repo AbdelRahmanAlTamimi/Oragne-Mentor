@@ -35,6 +35,7 @@ services:
       sh -c "sleep 10 &&
              composer install &&
              php artisan migrate --force &&
+             php artisan db:seed --force &&
              php artisan scout:import \"App\\Models\\Post\" &&
              php artisan scout:import \"App\\Models\\Discussion\" &&
              php artisan scout:import \"App\\Models\\User\" &&

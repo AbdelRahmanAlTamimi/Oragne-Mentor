@@ -1,6 +1,6 @@
 # Orange Mentor
 
-Orange Mentor is a developers' community discussion platform for Q&A, mentoring, and knowledge sharing. It supports markdown format for posts and discussions.
+Orange Mentor is a Orange Coding Academy students' community discussion platform for Q&A, mentoring, and knowledge sharing. It supports markdown format for posts and discussions.
 
 ## Technologies Used
 

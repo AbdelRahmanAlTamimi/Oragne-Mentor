@@ -1,6 +1,7 @@
 ## Orange Mentor
 
-Orange Mentor is a community discussion platform for Q&A, mentoring, and knowledge sharing. It provides topics, discussions, posts, user mentions, and accepted solutions—built with Laravel on the backend and Vue 3 (via Vite) on the frontend.
+Orange Mentor is a developers' community discussion platform for Q&A, mentoring, and knowledge sharing. It provides topics, discussions, posts, user mentions, and accepted solutions—built with Laravel on the backend and Vue 3 (via Vite) on the frontend.
+it supports markdown format
 
 ## Table of Contents
 

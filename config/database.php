@@ -35,6 +35,18 @@ return [
 
     'connections' => [
 
+        'admin' => [
+    'driver' => 'pgsql',
+    'host' => env('DB_HOST', '127.0.0.1'),
+    'port' => env('DB_PORT', '5432'),
+    'database' => 'postgres', // قاعدة موجودة دائماً
+    'username' => env('DB_USERNAME', 'postgres'),
+    'password' => env('DB_PASSWORD', ''),
+    'charset' => 'utf8',
+    'prefix' => '',
+    'schema' => 'public',
+],
+
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
@@ -68,8 +80,8 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
+            'database' => env('DB_DATABASE', 'postgres'),
+            'username' => env('DB_USERNAME', 'postgres'),
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',

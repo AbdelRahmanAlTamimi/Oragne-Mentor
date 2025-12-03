@@ -4,6 +4,15 @@ import vue from '@vitejs/plugin-vue';
 import svgLoader from "vite-svg-loader";
 
 export default defineConfig({
+    server: {
+        host: "0.0.0.0",
+        port: 5173,
+        strictPort: true,
+        hmr: {
+            host: "localhost",
+            port: 5173,
+        },
+    },
     ssr: {
         noExternal: ["vue-mention", "floating-vue"],
     },

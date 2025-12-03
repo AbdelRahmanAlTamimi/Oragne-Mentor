@@ -12,7 +12,7 @@ use Laravel\Scout\Searchable;
 
 class User extends Authenticatable
 {
-    use HasApiTokens, HasFactory, Notifiable;
+    use HasApiTokens, HasFactory, Notifiable, Searchable;
     use SoftDeletes;
 
     /**
